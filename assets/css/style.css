@@ -1,0 +1,376 @@
+/* COLS CLASSES */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*  */
+.col-25 {width: 25%;}
+.col-50 {width: 50%;}
+.col-75 {width: 75%;}
+.col-100{width: 100%;}
+
+/* WIDTH CLASSES */
+.w-1 {width: 8.33%;}
+.w-2 {width: 16.66%;}
+.w-3 {width: 25%;}
+.w-4 {width: 33.33%;}
+.w-5 {width: 41.66%;}
+.w-6 {width: 50%;}
+.w-7 {width: 58.33%;}
+.w-8 {width: 66.66%;}
+.w-9 {width: 75%;}
+.w-10 {width: 83.33%;}
+.w-11 {width: 91.66%;}
+.w-12 {width: 100%;}
+
+.w-1,.w-2,.w-3,.w-4,.w-5,.w-6,.w-7,.w-8,.w-9,.w-10,.w-11,.w-12{
+	padding: 0 var(--gutter-width);
+}
+/* FONT WIGHT CLASSES */
+.fw-1 {
+  font-weight: 100;
+}
+
+.fw-2 {
+  font-weight: 200;
+}
+
+.fw-3 {
+  font-weight: 300;
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.fw-5 {
+  font-weight: 500;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.fw-8 {
+  font-weight: 800;
+}
+
+.fw-9 {
+  font-weight: 900;
+}
+
+/* INLINE-BLOCK */
+.inline-block {
+  display: inline-block;
+}
+
+/* INLINE */
+.inline {
+  display: inline;
+}
+
+/* BLOCK */
+.block {
+  display: block;
+}
+
+/* RELATIVE */
+.p-relative {
+  position: relative;
+}
+
+/* ABSOLUTE */
+.p-absolute{
+  position: absolute;
+}
+
+/* IMAGE */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* FLOAT */
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+/* DISPLAY FLEX */
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-rowrev {
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-columnrev {
+  flex-direction: column-reverse;
+}
+
+/* JUSTIFY-CONTENT */
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+/* ALIGN ITEMS */
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+/* ALIGN CONTENT */
+.align-c-start {
+  align-content: flex-start;
+}
+
+.align-c-end {
+  align-content: flex-end;
+}
+
+.align-c-center {
+  align-content: center;
+}
+
+.align-c-between {
+  align-content: space-between;
+}
+
+.align-c-around {
+  align-content: space-around;
+}
+
+.align-c-evenly {
+  align-content: space-evenly;
+}
+
+/* TEXT ALIGN */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.bdr{
+  border: 2px solid red;
+}
+
+a{
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --font:arial;
+  --black: #000000;
+  --white: #ffffff;
+  --gutter-width:12px;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  width: 100%;
+  height: 100vh;
+
+}
+
+#back{
+  width: 100%;
+  height: 100vh;
+}
+
+#back img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#top{
+  pointer-events: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+#work{
+  width: 80%;
+  max-width: 1920px;
+  height: 100vh;
+  margin: auto;
+  
+}
+
+#nav{
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.nav-logo{
+  color: white;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+#nleft, #nright{
+  gap: 60px ;
+}
+
+#nleft a, #nright a{
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  pointer-events: all;
+}
+
+#hero{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#heroleft{
+  min-width: 50%;
+}
+
+#heroright{
+  width: 20%;
+}
+
+#heroleft .elem{
+  height: 5vw;
+  position: relative;
+  overflow: hidden;
+}
+
+#heroleft .elem h2:first-child{
+  top: 0;
+}
+
+#heroleft .elem h2{
+  position: absolute;
+  font-family: 'Big Shoulders Stencil Display', sans-serif;
+  letter-spacing: 3px;
+  top: 100%;
+  left: 0;
+  line-height: .9;
+  color: white;
+  font-size: 6vw;
+}
+
+#heroleft button{
+  margin-top: 2vw;
+  padding: 0.85vw 1.2vw;
+  font-size: 1vw;
+  letter-spacing: 1px;
+  pointer-events: all;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  backdrop-filter: blur(5px);
+}
+#heroright #img-div{
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
